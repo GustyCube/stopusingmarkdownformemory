@@ -115,6 +115,18 @@
     .hero h1 .line2 { display: block; color: var(--accent); }
     .hero h1 .line3 { display: block; color: var(--fg); }
 
+    .hero-byline {
+      font-size: clamp(14px, 2vw, 18px);
+      color: var(--muted);
+      margin-bottom: 24px;
+      font-style: italic;
+    }
+
+    .hero-byline a {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+
     .hero-sub {
       font-size: clamp(16px, 2.5vw, 22px);
       max-width: 700px;
@@ -631,6 +643,7 @@
       <span class="line2">Is Not</span>
       <span class="line3">Memory</span>
     </h1>
+    <p class="hero-byline">By <a href="https://x.com/GustyCube" target="_blank" rel="noopener">GustyCube</a>: An annoyed computer scientist</p>
     <p class="hero-sub">
       Your agent's <strong>MEMORY.md</strong> is a glorified sticky note on a fridge
       in a burning building, and you're standing there admiring your penmanship.
